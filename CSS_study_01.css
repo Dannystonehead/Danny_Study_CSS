@@ -58,3 +58,39 @@ a.solo:link, a.solo:visited {
 a.solo:hover, a.sole:active {
 	background-color: ##00655b;
 }
+
+.button {
+	display: block;
+    height: 100px;
+    width: 300px;
+    background: #ff671b;
+    border: 2px solid rgba(255, 73, 27, 0.59);
+    margin-left: 200px;
+     
+    /*Step 3: Text Styles*/
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font: bold 3.2em/100px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+/*"Helvetica Neue", Arial, Helvetica, Geneva, sans-serif; 있고 없고 무슨 차이? 왜 정렬이 바뀌나*/
+	background: -webkit-linear-gradient(top, #ff671b, #ff491b);
+	background: -moz-linear-gradient(top, #ff671b, #ff491b);
+	background: -o-linear-gradient(top, #ff671b, #ff491b);
+	background: -ms-linear-gradient(top, #ff671b, #ff491b);
+	background: linear-gradient(top, #ff671b, #ff491b);
+
+	-webkit-border-radius: 50px;
+	-moz-border-radius: 50px;
+	border-radius: 50px;
+
+	-webkit-box-shadow: 0 6px 0px #af5214;
+	-moz-box-shadow: 0 6px 0 #af5214;
+	box-shadow: 0 6px 0 #af5214;
+
+	text-shadow: 0 2px 2px rgba(255, 255, 255, 0.2);
+}
+
+a.button {
+	text-decoration: none;
+}
+
+
