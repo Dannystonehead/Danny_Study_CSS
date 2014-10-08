@@ -1,16 +1,32 @@
 body{
 	background-image: url(../images/baseline_21px.gif);
+	background-image: url(../images/problem2.PNG);
 
 	margin: 0;
 	font-family: "Nanum Gothic" , "돋움" , "Dotum" , Sans-Serief;
 	font-size: 14px;
+	font-weight: 600;
 	letter-spacing: -0.015em;
 	line-height: 1.5;
 	color: #313335;
 }
+p.center {
+	text-align: center;
+	width: 700px;
+	background-color: #ccc;
 
-p{
-	position: absolute;
+}
+
+
+#para1 {
+	text-align: right;
+	margin-top: 10px;
 	width: 300px;
 	height: 500px;
+	background-color: #ff3512;
+}
+
+p {
+	margin-left: 100px;
+	width: 100px;
 }
