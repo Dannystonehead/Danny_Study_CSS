@@ -1,0 +1,16 @@
+body{
+	background-image: url(../images/baseline_21px.gif);
+
+	margin: 0;
+	font-family: "Nanum Gothic" , "돋움" , "Dotum" , Sans-Serief;
+	font-size: 14px;
+	letter-spacing: -0.015em;
+	line-height: 1.5;
+	color: #313335;
+}
+
+p{
+	position: absolute;
+	width: 300px;
+	height: 500px;
+}
