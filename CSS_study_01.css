@@ -1,8 +1,10 @@
 body{
-	background-image: url(../images/baseline_21px.gif);
+	/*background-image: url(../images/baseline_21px.gif);*/
 	background-image: url(../images/problem2.PNG);
-	background-repeat: repeat-x;
+	background-repeat: no-repeat;
 	background-attachment: fixed;
+	background-position: left top;
+	margin-left: 300px;
 
 	margin: 0;
 	font-family: "Nanum Gothic" , "돋움" , "Dotum" , Sans-Serief;
@@ -11,24 +13,31 @@ body{
 	letter-spacing: -0.015em;
 	line-height: 1.5;
 	color: #313335;
+	
 }
 p.center {
 	text-align: center;
 	width: 700px;
 	background-color: #ccc;
-
+	
 }
 
 
 #para1 {
+	color: rgb(49,51,53);
 	text-align: right;
 	margin-top: 10px;
 	width: 300px;
 	height: 500px;
-	background-color: #ff3512;
+	background-color: #fafafa;
+	/*padding: 15px;*/
 }
 
 p {
 	margin-left: 100px;
 	width: 100px;
+}
+
+a {
+	text-decoration: none;
 }
