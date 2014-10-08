@@ -3,7 +3,7 @@ body{
 	background-image: url(../images/problem2.PNG);
 	background-repeat: no-repeat;
 	background-attachment: fixed;
-	background-position: left top;
+	background-position: right top;
 	margin-left: 300px;
 
 	margin: 0;
@@ -40,4 +40,21 @@ p {
 
 a {
 	text-decoration: none;
+}
+
+a.solo:link, a.solo:visited {
+	display: block;
+	font-weight: 700;
+	color: #ffffff;
+	background-color: #ff671b;
+	width: 200px;
+	height: 43px;
+	text-align: center;
+	padding: 5px;
+	text-decoration: none;
+	box-shadow: 2px;
+}
+
+a.solo:hover, a.sole:active {
+	background-color: ##00655b;
 }
