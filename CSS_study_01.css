@@ -1,6 +1,8 @@
 body{
 	background-image: url(../images/baseline_21px.gif);
 	background-image: url(../images/problem2.PNG);
+	background-repeat: repeat-x;
+	background-attachment: fixed;
 
 	margin: 0;
 	font-family: "Nanum Gothic" , "돋움" , "Dotum" , Sans-Serief;
