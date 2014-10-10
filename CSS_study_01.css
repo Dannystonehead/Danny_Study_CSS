@@ -48,6 +48,11 @@ ul li {
 	padding: 5px;
 }
 
+table, th, td {
+	border: 1px solid #ff671b;
+	padding: 5px;
+}
+
 p.center {
 	text-align: center;
 	width: 700px;
@@ -65,10 +70,10 @@ p.center {
 	/*padding: 15px;*/
 }
 
-p {
+/*p {
 	margin-left: 100px;
 	width: 100px;
-}
+}*/
 
 a {
 	text-decoration: none;
@@ -107,6 +112,7 @@ a.button1 {
     color: rgba(255, 255, 255, 0.90);
     text-align: center;
     font: bold 2.2em/60px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+    /* 여기서 60px이 의미하는게 무엇일까요? height와 연관이 있는거 같은데...*/
 	/*"Helvetica Neue", Arial, Helvetica, Geneva, sans-serif; 있고 없고 무슨 차이? 왜 정렬이 바뀌나*/
 	text-decoration: none;
 
