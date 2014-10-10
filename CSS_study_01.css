@@ -17,6 +17,24 @@ body{
 	color: #313335;
 	
 }
+
+h1 {
+	color: #ff9090;
+	font-size: 41px;
+}
+
+h2 {
+	color: #ff8080;
+	background-color: #fafafa;
+	font-size: 30px;
+}
+
+h3 {
+	color: #313335;
+	font-size: 24px;
+
+}
+
 p.center {
 	text-align: center;
 	width: 700px;
