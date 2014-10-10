@@ -35,6 +35,10 @@ h3 {
 
 }
 
+li {
+	list-style-image: url(../images/pin.gif);
+}
+
 p.center {
 	text-align: center;
 	width: 700px;
