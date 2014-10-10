@@ -48,6 +48,10 @@ ul li {
 	padding: 5px;
 }
 
+table {
+	border-collapse: collapse;
+}
+
 table, th, td {
 	border: 1px solid #ff671b;
 	padding: 5px;
