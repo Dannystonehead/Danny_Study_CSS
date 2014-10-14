@@ -49,16 +49,22 @@ ul li {
 	padding: 5px;
 }
 
+.doo table {
+	border: 5px solid #000;
+}
+
 table {
 	border-collapse: collapse;
+	border: 2px solid #000;
 }
 
 table, th, td {
-	border: 1px solid #ff671b;
+	/*border: 1px solid #ff671b;*/
 	padding: 5px;
 }
 
 p.center {
+	float: left;
 	text-align: center;
 	width: 700px;
 	background-color: #ccc;	
@@ -66,6 +72,7 @@ p.center {
 
 
 #para1 {
+	float: left;
 	color: rgb(49,51,53);
 	text-align: right;
 	margin-top: 10px;
